@@ -1,0 +1,71 @@
+#btnAdicionar{
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 400px;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+#btnRemover{
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 400px;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+#btnAdicionar:hover{
+    background-color: white;
+    color: black;
+}
+
+#btnRemover:hover{
+    background-color: white;
+    color: black;
+}
+
+body{
+    background-image: linear-gradient(to right, bisque, white);
+}
+
+#lista {
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    width: 80%;
+    margin-left: 35px;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.principal{
+    margin-left: 450px;
+    margin-top: 200px;
+    border: solid black 2px;
+    border-radius: 30px;
+    text-align: center;
+    width: 30%;
+    background-color: white;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#tarefa{
+    font-size: large;
+}
