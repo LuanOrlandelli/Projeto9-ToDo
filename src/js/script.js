@@ -10,7 +10,7 @@ function validaCampo(){
 }
 
 //Função que adiciona tarefa
-function btnAdicionar(){
+function adicionarTarefa(){
     //variavel que vai receber as tarefas
     let linhas = document.getElementById("task");
 
@@ -25,4 +25,12 @@ function btnAdicionar(){
         listarTarefas();
     }
     document.getElementById("taks").focus();
+}
+
+function listarTarefas(){
+    let valor="";
+    for(let i=0; i<tarefas.length;i++){
+        valor += tarefas[i] + "<br>";    
+    }
+    document.getElementById("lista").innerHTML = valor;
 }
