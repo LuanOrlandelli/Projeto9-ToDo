@@ -24,7 +24,7 @@ function adicionarTarefa(){
         //chamando a função que vai mostrar todas as tarefas
         listarTarefas();
     }
-    document.getElementById("taks").focus();
+    document.getElementById("task").focus();
 }
 
 function listarTarefas(){
@@ -33,4 +33,10 @@ function listarTarefas(){
         valor += tarefas[i] + "<br>";    
     }
     document.getElementById("lista").innerHTML = valor;
+}
+
+function removerTarefa(){
+    //pop - metodo que remove a ultima linha adicionada
+    tarefas.pop();
+    listarTarefas();
 }
